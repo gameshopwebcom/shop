@@ -1,0 +1,164 @@
+
+
+.body{
+    background-image: url(images/535496.jpg);
+    background-attachment: fixed;
+    color:white;
+    width: auto;
+    
+}
+h1{
+    color: white;
+}
+.header{
+    border: 1px solid darkblue;
+    padding:35px 65px;
+    height: 55px;
+}
+.class{
+    margin-top: 50px;
+    margin-left:200px ;
+    margin-right:210px;
+    border:2px solid orange ;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    margin-left:59px ;
+    
+} 
+.menu a{
+    text-decoration: none;
+}
+
+ .games h1{
+    margin-bottom: 5pt;
+}
+.games{
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+}
+.games a{
+    text-decoration: none;
+    font-size:36px;
+    border:2px solid rgb(30, 48, 211);
+    color: rgb(24, 28, 255);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.games a:hover{
+    color: white;
+    background: rgb(8,75,213);
+    background: radial-gradient(circle, rgba(8,75,213,1) 0%, rgba(7,10,92,1) 100%);
+    border:rgb(30, 48, 211);
+    box-shadow:-2px -1px 36px 8px rgba(38,35,120,1);
+    transition-duration: 0.3s;
+}
+    
+li a{
+    margin-left: 155px;
+    font-size: 25px; 
+    color: blue;
+    border-left:1px solid blue;
+    border-right:1px solid blue ;
+    padding: 15px 15px 15px 15px;
+}
+
+
+li a:hover{
+    background-color:rgb(30, 48, 211);
+    color: white;
+    box-shadow: -2px -1px 36px 8px rgba(38,35,120,1);
+    transition-duration: 0.3s;
+}
+.games img{
+    margin-bottom: 15px;
+    box-shadow: 9px 2px 31px 3px rgba(0,0,0,1);
+}
+.games h1{
+    margin-top: 55px;
+}
+
+
+
+
+@media(max-width:1000px){
+    li a{
+        margin-left: 65px;
+        font-size: 18px; 
+        color: blue;
+        border-left:1px solid blue;
+        border-right:1px solid blue ;
+        padding: 5px 5px 5px 5px;
+    }
+    .menu{
+        display: flex;
+        list-style-type: none;
+        margin-left:-155px ;
+    }
+
+
+    .body{
+        background-image: url(images/535496.jpg);
+        background-attachment: fixed;
+        color:white;
+        width: 435px;
+    }
+    .header{
+        border: 1px solid darkblue;
+        padding:35px 65px;
+        height: 55px; 
+        width:275px ;
+    }
+    .class {
+    font-size: 15px;
+    margin-left:35px;
+    margin-right:35px;
+   padding-right: 55px;
+   border-top: none;
+   border-right: none;
+    
+    border-left: 3px solid orange;
+    border-bottom:3px solid orange ;
+    border-right:3px solid orange ;
+    border-top:3px solid orange ;
+    }
+    .class h1{
+        margin-left: 35px;
+    }
+    .games img{
+        margin-bottom: 66px;
+    }
+    .flex{
+    display: block;
+    }
+}
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
